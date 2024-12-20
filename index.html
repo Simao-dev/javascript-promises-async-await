@@ -22,17 +22,17 @@
                     <a href="#" class="link-destaque">Publicar</a>
                 </li>
                 <li>
-                    <a href="#" class="link-destaque"> <img src="img/feed.svg" alt="feed"> 
+                    <a href="#" class=""> <img src="img/feed.svg" alt="feed"> 
                     Feed
                 </a>
                 </li>
                 <li>
-                    <a href="#" class="link-destaque"><img src="img/info.svg" alt="imagem sobre nós"> 
+                    <a href="#" class=""><img src="img/info.svg" alt="imagem sobre nós"> 
                         Sobre nós
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="link-destaque"> <img src="img/logout.svg" alt="imagem logout">
+                    <a href="#" class=""> <img src="img/logout.svg" alt="imagem logout">
                         Sair
                     </a>
                 </li>
@@ -40,6 +40,45 @@
         </nav>
     </aside>
 
+    <main>
+        <div class="container-upload-imagem">
+            <div class="container-imagem">
+                <img src="img/imagem1.png" alt="" class="main-imagem"> 
+            </div>
+            <button>Carregar imagem</button>
+            <div class="container-imagem-nome">
+                <p>imagem_projeto.png</p>
+                <img src="img/close.svg" alt="">
+            </div>
+        </div>
+        <div class="container-descricao">
+            <h2>Novo projeto</h2>
+            <form action="">
+                <div>
+                    <label for="">Nome do projeto</label>
+                    <input type="text" id="nome" name="nome"/>
+                </div>
+                <div>
+                    <label for="">Descrição</label>
+                    <textarea type="text" id="Descricao" name="Descricao"></textarea>
+                </div>
+                <div>
+                    <label for="">Tags</label>
+                    <input type="text" id="categoria" name="categoria"/>
+                </div>
+                <ul class="lista-tags">
+                    <li>
+                        <p>front-end</p>
+                        <img src="img/close-black.svg" alt="">
+                    </li>
+                </ul>
+                <div class="container-botoes">
+                    <button class="botao-descartar">Descartar</button>
+                    <button class="botao-publicar">Publicar</button>
+                </div>
+            </form>
+        </div>
+    </main>
     <script src="script.js"></script>
 </body>
 
